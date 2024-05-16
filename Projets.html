@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page Web Personnelle</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fdf5e6;
+            color: #333;
+        }
+        header {
+            background-color: #8b4513;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        nav {
+            text-align: center;
+            background-color: #f5deb3;
+            padding: 10px 0;
+        }
+        nav a {
+            margin: 0 15px;
+            color: #8b4513;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        main {
+            padding: 20px;
+        }
+        section {
+            margin-bottom: 40px;
+        }
+        h2 {
+            border-bottom: 2px solid #8b4513;
+            padding-bottom: 10px;
+            color: #8b4513;
+        }
+        .cv, .projects {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .cv-item, .project-item {
+            flex: 1 1 45%;
+            background-color: #fffaf0;
+            margin: 10px;
+            padding: 20px;
+            border: 1px solid #8b4513;
+            border-radius: 10px;
+        }
+        footer {
+            background-color: #8b4513;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+        .contact-form {
+            display: flex;
+            flex-direction: column;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        .contact-form label {
+            margin-top: 10px;
+            color: #8b4513;
+        }
+        .contact-form input, .contact-form textarea {
+            padding: 10px;
+            margin-top: 5px;
+            border: 1px solid #8b4513;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+        .contact-form button {
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #8b4513;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        .contact-form button:hover {
+            background-color: #a0522d;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Maëva AUTET - Parcours Professionnel</h1>
+    </header>
+    <nav>
+        <a href="#cv">CV</a>
+        <a href="#projects">Projets</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <main>
+        <section id="cv">
+            <h2>Curriculum Vitae</h2><h3>Retrouvez la version détaillée <a href="C:\Users\maeva\Downloads\CV-Maeva AUTET.pdf">ici.</a></h3>
+            <div class="cv">
+                <div class="cv-item">
+                    <h3>Expérience Professionnelle</h3>
+                    <p> CRTA Zagreb- Stage - Recherche en robotique chirurgical  (2024 - 16semaines)</p>
+                    <p> Blue Wave Toulon - Stage - Opérateur technicien (2023 - 8semaines)</p>
+		    <p> Rigoletto Knkke-Heist - Saisonnier - Commis de service (2022 - 4semaines)</p>
+		    <p> Maison Charlotte Toulouse - Saisonnier - Logistique (2022 - 4semaines)</p>
+                </div>
+                <div class="cv-item">
+                    <h3>Formation</h3>
+                    <p> Diplome d'ingénieur robotique, SeaTech Ecole d'Ingenieurs Toulon (2022-2025)</p>
+                    <p> Classe préparatoire PSI, Lycée Victor Hugo Caen (2019-2022)</p>
+                </div>
+                <div class="cv-item">
+                    <h3>Compétences</h3>
+                    <ul>
+                        <li>Programmation en Python, Matlab, C++ </li>
+                        <li>Logiciels Catia, RoboDK </li>
+                        <li>Langues : Français, Anglais, Espagnol </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section id="projects">
+            <h2>Projets et Rapports</h2>
+            <div class="projects">
+		<div class="project-item">
+                    <h3> Rapport de stage de 2e année - Chirurgie orthopédique robotisée </h3>
+                    <p> Immersion en laboratoire de recherche. </p>
+                    <a href="à venir.pdf">Pas encore disponible.</a>
+                </div>
+                <div class="project-item">
+                    <h3> Projet de fin d'année 2e année - Conception d'un banc de test </h3>
+                    <p> Conception d'un système de navigation servant à tester différentes formes et tailles de nageoires bio-inspirées.</p>
+                    <a href="https://drive.google.com/file/d/1egF7OwwDqy06n5j83ZCGRVy7HN9XX9UD/view?usp=drive_link">Voir le rapport</a>
+                </div>
+		<div class="project-item">
+		<h3> Rapport de stage de 1ere année - Technicien de sécurité </h3>
+                    <p> Réalisation diverse de maintenance sur les catamarans et voilier de Beneteau. </p>
+                    <a href="C:\Users\maeva\Downloads\Rapport de stage.pdf">Voir le rapport</a>
+                </div>
+                <div class="project-item">
+                    <h3> Projet de fin d'année 1e année </h3>
+                    <p>Développement d'une solution pour un support de caméra 360 pour la société Ennovia.</p>
+                    <a href="C:\Users\maeva\Downloads\Rapport projet - Groupe 1.pdf">Voir le rapport</a>
+                </div>
+            </div>
+        </section>
+        <section id="contact">
+  
+        </section>
+    </main>
+    <footer>
+        <p>Contactez-moi à : maeva.autet.25@seatech.fr</p>
+	<p> Consultez mon profil <a href="https://www.linkedin.com/in/ma%C3%ABva-autet-636149242/">LinkedIn</a></p>
+    </footer>
+</body>
+</html>
